@@ -65,7 +65,8 @@
               "src/assets/plugins/calendar/moment.min.js",
               "src/assets/plugins/calendar/calendar.js",
               "src/assets/plugins/lightgallery/js/lightgallery-all.min.js",
-              "src/assets/js/custom.js"
+              "src/assets/js/custom.js",
+              "src/assets/js/writer.js"
             ]
           },
           "configurations": {

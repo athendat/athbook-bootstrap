@@ -17,12 +17,12 @@ import { HOME_ROUTES } from './home.routing';
 
 @NgModule({
     declarations: [
-        HomeComponent
+        HomeComponent,
     ],
     imports: [
         CarouselModule,
         RouterModule.forChild(HOME_ROUTES),
         SharedModule,
-    ]
+    ],
 })
 export class HomeModule { }
