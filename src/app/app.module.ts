@@ -15,7 +15,7 @@ import { APP_ROUTES } from './app.routing';
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
     ],
     imports: [
         BrowserModule,
@@ -24,6 +24,6 @@ import { APP_ROUTES } from './app.routing';
         SharedModule,
     ],
     providers: [],
-    bootstrap: [AppComponent]
+    bootstrap: [AppComponent],
 })
 export class AppModule { }

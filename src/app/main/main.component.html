@@ -42,19 +42,22 @@
                         <ul class="nav navbar-nav">
 
                             <li>
-                                <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+                                <a routerLink="/home" routerLinkActive="active"
+                                    [routerLinkActiveOptions]="{ exact: true }">
                                     Inicio
                                 </a>
                             </li>
 
                             <li class="down">
-                                <a routerLink="/listing" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+                                <a routerLink="/listing" routerLinkActive="active"
+                                    [routerLinkActiveOptions]="{ exact: true }">
                                     Catálogo <i class="fa fa-chevron-down"></i>
                                 </a>
 
                                 <ul class="sub-menu">
                                     <li>
-                                        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+                                        <a routerLink="/" routerLinkActive="active"
+                                            [routerLinkActiveOptions]="{ exact: true }">
                                             Categoría<span class="tag-new">Nueva</span>
                                         </a>
                                     </li>
@@ -62,13 +65,15 @@
                             </li>
 
                             <li>
-                                <a routerLink="/blog" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+                                <a routerLink="/blog" routerLinkActive="active"
+                                    [routerLinkActiveOptions]="{ exact: true }">
                                     Blog
                                 </a>
                             </li>
 
                             <li>
-                                <a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+                                <a routerLink="/contact" routerLinkActive="active"
+                                    [routerLinkActiveOptions]="{ exact: true }">
                                     Contáctenos
                                 </a>
                             </li>
@@ -84,7 +89,7 @@
 
 
     <!-- Content -->
-    <div class="page-content bg-white">
+    <div class="page-content bg-white pb-0">
 
         <router-outlet></router-outlet>
 
@@ -95,63 +100,85 @@
                     <div class="row">
                         <div class="col-xl-5 col-lg-4 col-md-12 col-sm-12">
                             <div class="widget">
-                                <img src="assets/images/logo-white.png" class="m-b15" alt="" width="180">
-                                <p class="text-capitalize m-b20">Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry has been the industry.</p>
+                                <img src="assets/images/logo-white-1.png" class="m-b15" alt="" width="180">
+
+                                <p class="text-uppercase m-b20">
+                                    Subscríbase para estar al dia de los nuevos negocios.
+                                </p>
                                 <div class="subscribe-form m-b20">
                                     <form class="dzSubscribe" action="script/mailchamp.php" method="post">
                                         <div class="dzSubscribeMsg"></div>
                                         <div class="input-group">
                                             <input name="dzEmail" required="required" class="form-control"
-                                                placeholder="Your Email Address" type="email">
+                                                placeholder="Ingrese se correo electrónico" type="email">
                                             <span class="input-group-btn">
                                                 <button name="submit" value="Submit" type="submit"
-                                                    class="site-button radius-xl">Subscribe</button>
+                                                    class="site-button radius-xl">Subscribirme</button>
                                             </span>
                                         </div>
                                     </form>
                                 </div>
                                 <ul class="list-inline m-a0">
-                                    <li><a href="javascript:void(0);" class="site-button facebook circle "><i
-                                                class="fa fa-facebook"></i></a></li>
-                                    <li><a href="javascript:void(0);" class="site-button google-plus circle "><i
-                                                class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="javascript:void(0);" class="site-button linkedin circle "><i
-                                                class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="javascript:void(0);" class="site-button instagram circle "><i
-                                                class="fa fa-instagram"></i></a></li>
-                                    <li><a href="javascript:void(0);" class="site-button twitter circle "><i
-                                                class="fa fa-twitter"></i></a></li>
+                                    <li>
+                                        <a class="site-button facebook circle">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="site-button google-plus circle">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="site-button linkedin circle">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="site-button instagram circle">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="site-button twitter circle">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
+
                         <div class="col-xl-4 col-lg-5 col-md-7 col-sm-12 col-12">
                             <div class="widget border-0">
-                                <h5 class="m-b30 text-white">Frequently Asked Questions</h5>
+                                <h5 class="m-b30 text-white">Categorías</h5>
                                 <ul class="list-2 list-line">
-                                    <li><a href="javascript:void(0);">Hotel</a></li>
-                                    <li><a href="javascript:void(0);">Restaurant</a></li>
-                                    <li><a href="javascript:void(0);">Appartment</a></li>
-                                    <li><a href="javascript:void(0);">SPA & Beauty</a></li>
-                                    <li><a href="javascript:void(0);">Atuomation</a></li>
-                                    <li><a href="javascript:void(0);">Travel</a></li>
-                                    <li><a href="javascript:void(0);">How It Works</a></li>
-                                    <li><a href="javascript:void(0);">For Employers</a></li>
-                                    <li><a href="javascript:void(0);">Underwriting</a></li>
-                                    <li><a href="javascript:void(0);">Contact Us</a></li>
-                                    <li><a href="javascript:void(0);">Lending Licnses</a></li>
-                                    <li><a href="javascript:void(0);">Support</a></li>
+                                    <li>
+                                        <a>Servicios Técnicos</a>
+                                    </li>
+                                    <li>
+                                        <a>Viajes</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
+
                         <div class="col-xl-3 col-lg-3 col-md-5 col-sm-12 col-12">
                             <div class="widget widget_getintuch">
-                                <h5 class="m-b30 text-white">Contact us</h5>
+                                <h5 class="m-b30 text-white">Contáctenos</h5>
                                 <ul>
-                                    <li><i class="ti-location-pin"></i><strong>address</strong> demo address #8901
-                                        Marmora Road Chi Minh City, Vietnam </li>
-                                    <li><i class="ti-mobile"></i><strong>phone</strong>0800-123456 (24/7 Support)</li>
-                                    <li><i class="ti-email"></i><strong>email</strong>info@example.com</li>
+                                    <li>
+                                        <i class="ti-location-pin"></i> <strong>dirección</strong>
+                                        La Sola #307 entre Santa Catalina y Milagros, municipio Diez de Octubre código
+                                        postal 10700, provincia La Habana, República de Cuba
+                                    </li>
+
+                                    <li><i class="ti-mobile"></i><strong>teléfono</strong>
+                                        +535 254 1322
+                                    </li>
+
+                                    <li><i class="ti-email"></i><strong>correo electrónico</strong>
+                                        athendat@athendat.site
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -162,8 +189,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <span class="fbottom-like"> Design With <a class="like-btn" href="javascript:void(0)"><i
-                                        class="fa fa-heart"></i></a> By DexignZone </span>
+                            <span class="fbottom-like">
+                                Desarrollado con <i class="fa fa-heart"></i> por
+                                <a class="like-btn" href="https://athendat.site" target="_blank" rel="noreferrer noopener"> ATHENDAT</a>
+                            </span>
                         </div>
                     </div>
                 </div>

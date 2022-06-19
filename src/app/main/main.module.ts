@@ -14,11 +14,11 @@ import { MAIN_ROUTES } from './main.routing';
 
 @NgModule({
     declarations: [
-        MainComponent
+        MainComponent,
     ],
     imports: [
         RouterModule.forChild(MAIN_ROUTES),
         SharedModule,
-    ]
+    ],
 })
 export class MainModule { }
