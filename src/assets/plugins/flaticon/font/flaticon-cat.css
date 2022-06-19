@@ -1,0 +1,36 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 21/02/2019 09:40
+  	*/
+
+@font-face {
+  font-family: "Flaticon-cat";
+  src: url("./Flaticon-cat.eot");
+  src: url("./Flaticon-cat.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon-cat.woff2") format("woff2"),
+       url("./Flaticon-cat.woff") format("woff"),
+       url("./Flaticon-cat.ttf") format("truetype"),
+       url("./Flaticon-cat.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon-cat";
+    src: url("./Flaticon-cat.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-cat-"]:before, [class*=" flaticon-cat-"]:before,
+[class^="flaticon-cat-"]:after, [class*=" flaticon-cat-"]:after {   
+  font-family: Flaticon-cat;
+font-style: normal;
+}
+
+.flaticon-cat-cart-of-ecommerce:before { content: "\f100"; }
+.flaticon-cat-carrot:before { content: "\f101"; }
+.flaticon-cat-hockey:before { content: "\f102"; }
+.flaticon-cat-pill-capsule:before { content: "\f103"; }
+.flaticon-cat-birthday-cake:before { content: "\f104"; }
+.flaticon-cat-place:before { content: "\f105"; }
